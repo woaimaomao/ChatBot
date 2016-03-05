@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/pic_right"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bill" />
+
+    <TextView
+        android:id="@+id/text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/pic_right"
+        android:layout_toStartOf="@id/pic_right"
+        android:background="@drawable/bg_msgbox_send_normal"
+        android:maxEms="10"
+        android:paddingBottom="15dp"
+        android:paddingEnd="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:text="@string/hello_world_too"
+        android:textSize="@dimen/chat_text_size" />
+
+</RelativeLayout>

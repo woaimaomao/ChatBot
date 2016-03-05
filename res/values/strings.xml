@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">包打听</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_world_too">Hello world too!</string>
+    <string name="send_message">发送</string>
+    <string name="say_hello">HI,我是图灵机器人，现在开始和我聊天吧!</string>
+	<string name="input_tip">输入内容</string>
+	<string name="user_name">输入手机号或注册的邮箱</string>
+	<string name="password">密码</string>
+	<string name="login">登录</string>
+</resources>

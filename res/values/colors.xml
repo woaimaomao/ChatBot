@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="input_background">#aa99aaff</color>
+    <color name="et_foreground_tint">#aa99aaff</color>
+    <color name="disable_send_button">#c4c4c4</color>
+    <color name="tab_botoom_default_color">#f7f7f7</color>
+</resources>
